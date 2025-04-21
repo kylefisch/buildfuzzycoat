@@ -2,7 +2,7 @@
 
 #creates 
 ml anaconda
-conda create -n chimera
-pip3 install chimera
+#conda create -n chimera
+#git clone https://github.com/insilichem/pychimera.git
 conda activate chimera 
 
