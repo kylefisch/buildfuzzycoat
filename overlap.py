@@ -25,4 +25,4 @@ z=ppdb.df[:8]
 
 #check the coordinates in the pdb file to determine significant overlap
 for i in atom:
-  if 
+  
