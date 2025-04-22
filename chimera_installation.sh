@@ -1,12 +1,12 @@
 #!/bin/bash
 
-#creates 
 ml anaconda
-#conda create -n pychimera
-#conda install -c insilichem pychimera pychimera
+conda create -n pychimera
+conda install -c insilichem pychimera pychimera
 conda activate pychimera
 
 #make a chimera dir
+mkdir chimera
 in_dir="/$/chimera"
 
 #run the installation script and move to main directory
