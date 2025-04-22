@@ -6,5 +6,6 @@
 #would suggest typing "pychimera" into the command line, then running the script with python that way
 #that way you can perform this from any folder :3
 pychimera
-import chimra 
+import chimera 
+from chimera import openModels, Molecule, UserError, numpyArrayFromAtoms
 
