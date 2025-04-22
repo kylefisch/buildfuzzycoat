@@ -17,6 +17,6 @@ unzip $in_dir/chimera-1.13.1-linux_x86_64.bin -d $in_dir/chimera_install
 #to further unzip and get files
 $in_dir/chimera_install/chimera.bin
 #write the path to the final chimera directory
-export CHIMERADIR="$in_dir/bin" 
+export CHIMERADIR="$in_dir" 
 #if it gives the error: No space left on device: '/home/alun7358/.chimera', execute the following to move it and solve the problem:
 #mv /home/alun7358/chimera /projects/alun7358/software
