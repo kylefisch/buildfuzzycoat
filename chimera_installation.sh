@@ -20,3 +20,5 @@ $in_dir/chimera_install/chimera.bin
 export CHIMERADIR="$in_dir/bin" 
 #if it gives the error: No space left on device: '/home/alun7358/.chimera', execute the following to move it and solve the problem:
 #mv /home/alun7358/chimera /projects/alun7358/software
+
+#at this point, in order to free up space, you can just move it to software/anaconda/envs/pychimera
