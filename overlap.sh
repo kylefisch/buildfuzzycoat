@@ -3,6 +3,6 @@
 #creates 
 ml anaconda
 #conda create -n chimera
-#conda install -c insilichem pychimera <directory>
-conda activate <directory>
+#conda install -c insilichem pychimera <env>
+conda activate <env>
 
