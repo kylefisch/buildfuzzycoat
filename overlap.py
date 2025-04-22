@@ -19,9 +19,10 @@ ppdb.read_pdb('$/5o3l.pdb')
 
 #define the atoms 
 atom=ppdb.df['ATOM']
-x=ppdb.df[$7]
-y=ppdb.df[$8]
-z=ppdb.df[$9]
+x=ppdb.df[:6]
+y=ppdb.df[:7]
+z=ppdb.df[:8]
 
-#for loop, checking the coordinates in the pdb file to determine significant overlap
+#check the coordinates in the pdb file to determine significant overlap
 for i in atom:
+  if 
