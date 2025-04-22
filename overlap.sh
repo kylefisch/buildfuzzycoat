@@ -3,6 +3,6 @@
 #creates 
 ml anaconda
 #conda create -n chimera
-#git clone https://github.com/insilichem/pychimera.git
-conda activate chimera 
+#conda install -c insilichem pychimera <directory>
+conda activate <directory>
 
