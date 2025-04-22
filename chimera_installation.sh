@@ -1,11 +1,11 @@
 #!/bin/bash
 
+#make a chimera envs
 ml anaconda
 conda create -n chimera
 conda install -c insilichem pychimera chimera
 conda activate chimera
 
-#make a chimera dir
 #i would personally recommend putting this in software
 in_dir="/projects/<identikey>/software/anaconda/envs/chimera"
 
