@@ -1,4 +1,5 @@
 #!/usr/bin/env python
 
-import pychimera
+#needs to start with just pychimera, otherwise chimera will not be imported
+pychimera
 import chimra 
